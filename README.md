@@ -12,6 +12,6 @@
 
 ![ball](./image/circle.gif)
 
-3. circle
+4. drag
 
 ![ball](./image/drag.gif)
