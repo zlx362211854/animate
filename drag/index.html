@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .drag-container {
+      width: 400px;
+    }
+    .drag-container > li {
+      width: 100%;
+      list-style: none;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <ul id='drag' class="drag-container">
+      <li style="background-color: aqua;height: 50px;">12</li>
+      <li style="background-color: bisque;height: 50px;">34</li>
+      <li style="background-color: burlywood;height: 50px;">56</li>
+      <li style="background-color: darkcyan;height: 50px;">78</li>
+    </ul>
+  </div>
+  <script src='./drag.js'></script>
+  <script>
+    var drag = new Drag()
+    drag.init('drag')
+  </script>
+</body>
+</html>
